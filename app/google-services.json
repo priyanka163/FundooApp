@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "431418353299",
+    "firebase_url": "https://attendance-fad3a.firebaseio.com",
+    "project_id": "attendance-fad3a",
+    "storage_bucket": "attendance-fad3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431418353299:android:74abecd5c7cc3611",
+        "android_client_info": {
+          "package_name": "com.example.bridgelabz.attendence_proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431418353299-fgvto9lm1ovneog315audgfk2n2nn6m3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bridgelabz.attendence_proj",
+            "certificate_hash": "DEAED06CF05607DC98232C6B621624BDD7A92BC4"
+          }
+        },
+        {
+          "client_id": "431418353299-e480omq6iujoj7bu425m78qfnq1q9g65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxIhL16dRYaWfW9l-HaehVKeBBHpVYYO8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431418353299-e480omq6iujoj7bu425m78qfnq1q9g65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

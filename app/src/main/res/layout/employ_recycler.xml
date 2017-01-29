@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/employee_layout"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="#ffffff">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#ffffff"
+    android:id="@+id/unmark_relative">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/id_backicon"
+        android:layout_marginTop="27dp"
+        android:background="#ffffff"
+        android:src="@drawable/ic_arrow_back_black_48px"
+        android:layout_marginLeft="20dp"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/gmail"
+        android:layout_marginTop="27dp"
+        android:background="#3B5372"
+        android:src="@drawable/ic_email"
+        android:layout_marginLeft="334dp"/>
+
+    <TextView
+        android:layout_width="174.2dp"
+        android:layout_height="22dp"
+        android:textColor="#3B5372"
+        android:text="December,2016"
+        android:id="@+id/dateview"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginRight="95.9dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:layout_width="66dp"
+        android:layout_height="17dp"
+        android:text="Unmarked"
+        android:textColor="#E35656"
+        android:id="@+id/unmarked"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="177dp"
+        android:textSize="14dp"
+
+        />
+
+    <TextView
+        android:layout_width="54dp"
+        android:layout_height="28dp"
+        android:text="count"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:id="@+id/count"
+        android:background="@drawable/textview_border"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="52dp"/>
+</RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_attendence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="12dp"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
